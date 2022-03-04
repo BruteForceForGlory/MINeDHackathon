@@ -12,8 +12,18 @@ It contains 3 .rar files:
       - Shape_5d_256i -> count = {'PS': 5, 'RA': 5, 'PR': 5, 'EM': 5, 'BR': 5, 'MQ': 5, 'SEM': 2, 'OV': 5, 'HS': 5, 'CMB': 5, 'PE': 3, 'RD': 5, 'TRI': 1, 'AS': 5} 
       - Shape_10d_256i -> count = {'PS': 10, 'RA': 10, 'PR': 10, 'EM': 10, 'BR': 10, 'MQ': 10, 'SEM': 2, 'OV': 10, 'HS': 10, 'CMB': 10, 'PE': 3, 'RD': 10, 'TRI': 1, 'AS': 10}
 
+Image Processing:
+Since images in the raw datasets do not have the output suitable to train the model first of all the required images have been created from the raw dataset using image processing techniques like power-law transformations, image smoothening, etc. using matlab. The code for the same has been provided in the MaskCreatoe.m file.The primary task here is accomplished but we always want a model to obtain faster results:).
+
+Results after image processing:
+
+
 Model:
 The model used to generate desired output images from input images is the Pix2Pix GAN for image translation with a reference to “Image-to-Image Translation with Conditional Adversarial Networks” and presented at CVPR in 2017, presented by Philip Isola.
 The Pix2Pix GAN has been demonstrated on a range of image-to-image translation tasks such as converting maps to satellite photographs, black and white photographs to color, and sketches of products to product photographs.
 
 ![image](https://user-images.githubusercontent.com/72211869/156833884-449959bd-85e6-4394-a2ec-19db81daeed6.png)
+
+Training:
+The model presented here has been trained for only the type 'AS' diamond inputs from the Shape_5d_256i folder which includes about 1280 source images for 30 epochs.
+The loss function used is binary_crossentropy and mae.
