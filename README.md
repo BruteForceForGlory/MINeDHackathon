@@ -33,7 +33,7 @@ The primary task here is accomplished but we always want a model to obtain faste
 
 # Model:
 
-The model used to generate desired output images from input images is the Pix2Pix GAN for image translation with a reference to “Image-to-Image Translation with Conditional Adversarial Networks” and presented at CVPR in 2017, presented by Philip Isola.
+The model used to generate desired output images from input images is the Pix2Pix GAN for image translation with a reference to “[Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004)” and [presented at CVPR in 2017](https://ieeexplore.ieee.org/abstract/document/8100115), presented by [Philip Isola](http://web.mit.edu/phillipi/).
 
 The Pix2Pix GAN has been demonstrated on a range of image-to-image translation tasks such as converting maps to satellite photographs, black and white photographs to color, and sketches of products to product photographs.
 
