@@ -28,7 +28,7 @@ The primary task here is accomplished but we always want a model to obtain faste
 
 
 # Results after image processing:
-
+![image](https://user-images.githubusercontent.com/72211869/156837029-c491a9a6-1a7b-4597-81ef-d440652e5524.png)
 
 
 # Model:
