@@ -24,12 +24,18 @@ Since images in the raw datasets do not have the output suitable to train the mo
 
 The code for the same has been provided in the MaskCreator.m file.
 
-The primary task here is accomplished but we always want a model to obtain faster results:).
+The primary task here is accomplished here but we always want a model to obtain faster results :).
 
+# Methodology of Image processing:
+
+1) The images were given a power-law transformation with c=1 and r=8.
+2) The images were converted from RGB to grey scale and smoothened using gaussian filter.
+3) The images were then passed to edge detection using sobel algorithm giving enough points on the outer surface to construct the mask.
+4) The mask was then constructed using the convex hull algorithm.
+5) The target image was generated using the multiplication operation between mask and the source image.
 
 # Results after image processing:
 ![image](https://user-images.githubusercontent.com/72211869/156837029-c491a9a6-1a7b-4597-81ef-d440652e5524.png)
-
 
 # Model:
 
