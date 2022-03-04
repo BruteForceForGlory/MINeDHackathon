@@ -62,6 +62,7 @@ Input) -
 
 Output) -
 (pyplot)
+
 ![image](https://user-images.githubusercontent.com/72211869/156853806-df11f4d5-8349-4d80-a88e-53dc78f8e7f9.png)
 
 # Dependencies
