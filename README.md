@@ -54,6 +54,13 @@ The loss function used is binary_crossentropy and mae.
 
 Training this model required around 3 hrs on GPU.
 
+# Result
+
+Input) -
+
+![image](https://user-images.githubusercontent.com/72211869/156853127-01b5af29-c63f-41de-9c20-58606f7f621a.png)
+
+
 # Dependencies
 
 The code requires libraries such as :
@@ -65,6 +72,7 @@ The code requires libraries such as :
 
 # How to use
 
-- Load the model '' using the tenserflow api and directly predict an image. The code for predicting and loading can be found in the last execution cell of the Mined.ipynb file.
+- Load the model 'model_038400.h5' using the tenserflow api and directly predict an image. The code for predicting and loading can be found in the last execution cell of the Mined.ipynb file.
 - Remember that the model uploaded to the repository only is trained for the AS diamond images.
 - More types may be trained as per the requirement by the just changing the source and target images read by the model.
+- Model can be downloaded from releases.
