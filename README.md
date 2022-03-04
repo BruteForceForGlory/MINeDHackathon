@@ -22,7 +22,7 @@ It contains 3 .rar files:
 
 Since images in the raw datasets do not have the output suitable to train the model first of all the required images have been created from the raw dataset using image processing techniques like power-law transformations, image smoothening, etc. using matlab. 
 
-The code for the same has been provided in the MaskCreatoe.m file.
+The code for the same has been provided in the MaskCreator.m file.
 
 The primary task here is accomplished but we always want a model to obtain faster results:).
 
@@ -54,3 +54,6 @@ The code requires libraries such as :
 - keras
 - matplotlib
 - python 3
+
+# How to use
+
