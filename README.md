@@ -57,3 +57,4 @@ The code requires libraries such as :
 
 # How to use
 
+ - First method : Load the model '' using the tenserflow api and directly predict an image. The code for predicting and loading can be found in the last execution cell of the Mined.ipynb file.
