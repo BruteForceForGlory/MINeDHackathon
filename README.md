@@ -11,8 +11,11 @@ https://drive.google.com/drive/folders/1FPiUhNzWmJMNXkafV02WDtCufWu83KUV?usp=sha
 
 
 It contains 3 .rar files:
+
       - Shape_1d_256i -> count  = 1 diamond of each SHAPE label
+      
       - Shape_5d_256i -> count = {'PS': 5, 'RA': 5, 'PR': 5, 'EM': 5, 'BR': 5, 'MQ': 5, 'SEM': 2, 'OV': 5, 'HS': 5, 'CMB': 5, 'PE': 3, 'RD': 5, 'TRI': 1, 'AS': 5} 
+      
       - Shape_10d_256i -> count = {'PS': 10, 'RA': 10, 'PR': 10, 'EM': 10, 'BR': 10, 'MQ': 10, 'SEM': 2, 'OV': 10, 'HS': 10, 'CMB': 10, 'PE': 3, 'RD': 10, 'TRI': 1, 'AS': 10}
 
 # Image Processing:
