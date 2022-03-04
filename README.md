@@ -43,3 +43,12 @@ The Pix2Pix GAN has been demonstrated on a range of image-to-image translation t
 The model presented here has been trained for only the type 'AS' diamond inputs from the Shape_5d_256i folder which includes about 1280 source images for 30 epochs.
 
 The loss function used is binary_crossentropy and mae.
+
+# Dependencies
+
+The code requires libraries such as :
+- numpy
+- tensorflow
+- keras
+- matplotlib
+- python 3
