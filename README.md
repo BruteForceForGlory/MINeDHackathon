@@ -13,6 +13,7 @@ It contains 3 .rar files:
       - Shape_10d_256i -> count = {'PS': 10, 'RA': 10, 'PR': 10, 'EM': 10, 'BR': 10, 'MQ': 10, 'SEM': 2, 'OV': 10, 'HS': 10, 'CMB': 10, 'PE': 3, 'RD': 10, 'TRI': 1, 'AS': 10}
 
 Image Processing:
+
 Since images in the raw datasets do not have the output suitable to train the model first of all the required images have been created from the raw dataset using image processing techniques like power-law transformations, image smoothening, etc. using matlab. The code for the same has been provided in the MaskCreatoe.m file.The primary task here is accomplished but we always want a model to obtain faster results:).
 
 Results after image processing:
