@@ -58,6 +58,8 @@ Training this model required around 3 hrs on GPU.
 
 Input) -
 
+Test image was taken from the 10d dataset(unseen image during training). Image name : - 6213507139_002.png
+
 ![image](https://user-images.githubusercontent.com/72211869/156853127-01b5af29-c63f-41de-9c20-58606f7f621a.png)
 
 Output) -
