@@ -24,6 +24,8 @@ Since images in the raw datasets do not have the output suitable to train the mo
 
 The code for the same has been provided in the MaskCreator.m file.
 
+The images for AS type diamond after image processing have been uploaded in the release v1.0.1. These images include the desired target images almost resemble the image of the diamond after removal of background. These images are used to train the model as the desired output to be achieved. A sample of the image is given below.
+
 The primary task here is accomplished here but we always want a model to obtain faster results :).
 
 # Methodology of Image processing:
