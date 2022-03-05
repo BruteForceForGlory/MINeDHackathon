@@ -52,7 +52,7 @@ The model presented here has been trained for only the type 'AS' diamond inputs 
 
 The loss function used is binary_crossentropy and mae.
 
-Training this model required around 3 hrs on GPU.
+Training this model required around 3-3.5 hrs on GPU.
 
 # Result
 
