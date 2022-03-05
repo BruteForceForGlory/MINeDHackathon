@@ -39,6 +39,8 @@ The primary task here is accomplished here but we always want a model to obtain 
 # Results after image processing:
 ![image](https://user-images.githubusercontent.com/72211869/156837029-c491a9a6-1a7b-4597-81ef-d440652e5524.png)
 
+# All output images can be downloaded from https://drive.google.com/drive/folders/10xxhW00W0NxX-Hgs5K6ZOyfy1P3OCMI5?usp=sharing
+
 # Model:
 
 The model used to generate desired output images from input images is the Pix2Pix GAN for image translation with a reference to “[Image-to-Image Translation with Conditional Adversarial Networks](https://arxiv.org/abs/1611.07004)” and [presented at CVPR in 2017](https://ieeexplore.ieee.org/abstract/document/8100115), presented by [Philip Isola](http://web.mit.edu/phillipi/).
